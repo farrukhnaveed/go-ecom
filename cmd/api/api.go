@@ -5,10 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/mux"
 	"github.com/farrukhnaveed/go-ecom/service/user"
+	"github.com/gorilla/mux"
 )
-
 
 type APIServer struct {
 	addr string
